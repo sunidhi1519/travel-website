@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Travel Website</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="responsive.css">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link
@@ -33,9 +34,7 @@
     <section class="homescreen" id = "homescreen">
         <div class="text">
             <p>Travel far, travel wide, travel deep. Dive into the unknown, and emerge with a heart full of memories <br><br>    
-                <!-- Embark on a journey of discovery and let your wanderlust guide you to the most captivating destinations on Earth <br><br>  -->
-            <!--  ravel is not just about visiting new places, it's about creating unforgettable memories and embracing the essence of each unique culture. -->
-         
+       
             <a href="#" class="homebutton" >DISCOVER MORE</a>
         </p>
     </div>
@@ -138,7 +137,7 @@
             <div class="box">
                 <div class="thum">
                     <img src="images/switzerland.jpg" alt="">
-                    <h3>Rs 90,000</h3>
+                    <h3>Rs 95,000</h3>
                 </div>
             
 
@@ -251,6 +250,82 @@
         </div>
     </section>
 
+<!-- 
+    <p id="demo"></p>
+    
+    <script>
+        var w = window.innerWidth;
+        var h = window.innerHeight;
+
+        var x = document.getElementById("demo");
+        x.innerHTML = "Browser width: " + w + ", height: " + h + ".";
+    </script> -->
+    <!-- Testimonals -->
+    <section id="Testimonals" class="py-4">
+        <div class="test container">
+            <div class="title-wrap">
+                <span class="sm-title">Reviews from our Clients</span>
+                <h2 class="lg-title">Testimonals</h2>    
+            </div>
+            <div class="test-row">
+                <div class="test-item">
+                    <p>Machu Picchu is a wonder of the world. The ancient ruins, nestled in the Andes, took my breath away. The mystical atmosphere and breathtaking views, Machu Picchu is a must-visit for anyone seeking adventure.</p>
+                    <div class="test-item-info">
+                        <img src="images/t1.jpg" alt="testimonal">
+                        <div>
+                            <h3>Sampriti Patel</h3>
+                            <p>Machhu Pichu</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="test-item">
+                    <p>Switzerland is a paradise on earth. From the majestic Alps to the picturesque lakes, its beauty is mesmerizing.
+                    The charming cities, efficient transportation and warm hospitality make it a dream destination.</p>
+                    <div class="test-item-info">
+                        <img src="images/t2.jpg" alt="testimonal">
+                        <div>
+                            <h3>Sanial Das</h3>
+                            <p>Switzerland</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="test-item">
+                    <p>Paris is pure magic. The city's beauty, from the iconic landmarks to the charming streets, is simply enchanting. The
+                    art, culture, and cuisine make it a feast for the senses. Paris stole my heart and left me longing for more.</p>
+                    <div class="test-item-info">
+                        <img src="images/t3.jpg" alt="testimonal">
+                        <div>
+                            <h3>Meghna Singh</h3>
+                            <p>Paris</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+
+
+    <!-- video -->
+    <section id="video">
+        <div class="video-wrapper flex">
+            <!-- <video loop> -->
+            <video >
+                <source src="images/pexels-cinema-professionals-3636894-1920x1080-24fps.mp4" type="video/mp4" >
+            </video>
+            <button type="button" id="play-btn">
+                <i class='bx bx-play'></i>
+            </button>
+
+        </div>
+
+
+    </section>
+
+
     <!-- newsletter -->
     <section class="newsletter">
         <div class="news-text">
@@ -286,16 +361,15 @@
                 </div>
 
                 <div class="list">
-                     <!-- <h4>Support</h4>  -->
                     <span>Support</span>
                     <ul>
-                        <li><a href="">Write to us</a></li>
+                        <li><a href="">Services</a></li>
+                        <li><a href="">Write a review</a></li>
                         <li><a href="">Rate us</a></li>
-                        <li><a href="">Reach us</a></li>
-                        <li><a href="">Help</a></li>
-                        <li><a href="">Tour</a></li>
+                        <li><a href="">Testimonals</a></li>
+                        <li><a href="">Recommended </a></li>
                     </ul>
-                </div> 
+                </div>
 
                 <div class="list">
                     <!-- <h4>Contact Info</h4> -->
@@ -320,8 +394,7 @@
                         <a href=""><i class='bx bxl-linkedin'></i></a>
                     </div>
                 </div>
-
-
+                
             </div>
         </div>
 

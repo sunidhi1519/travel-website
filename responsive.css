@@ -1,0 +1,102 @@
+@media (max-width:1400px) {
+    header {
+        padding: 0 3%;
+        transition: .2s;
+    }
+
+    section {
+        padding: 80px 3%;
+        transition: .2s;
+    }
+
+    :root {
+        --h2-font: 2.3rem;
+        transition: .2s;
+    }
+
+}
+
+@media (max-width:920px) {
+    #menu-icon {
+        display: block;
+        color: var(--background-color);
+    }
+
+    .hometext h1 {
+        font-size: 2.8rem;
+    }
+
+    .home {
+        height: 85vh;
+    }
+
+    .logo {
+        font-size: 1.8rem;
+    }
+
+    .text p {
+        font-size: 1.3rem;
+        /* opacity: 0; */
+    }
+
+    .navbar {
+        position: absolute;
+        display: block;
+        top: 0;
+        right: -100%;
+        width: 270px;
+        height: 100vh;
+        background-color: rgb(16, 210, 210);
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding: 50px 30px;
+        transition: 0.5s all;
+    }
+
+    .navbar a {
+        display: block;
+        margin: 1.2rem 0;
+        font-size: 1.05rem;
+    }
+
+    .navbar a:hover {
+        color: var(--text-color);
+    }
+
+    .navbar.open {
+        right: 0;
+    }
+
+    .list {
+        width: 50%;
+        margin-bottom: 12px;
+    }
+}
+
+
+@media (max-width: 575px) {
+    .list {
+        width: 100%;
+    }
+
+    .newsletter form {
+        width: 350px;
+    }
+
+    :root {
+        --h2-font: 1.8rem;
+        transition: .2s;
+    }
+
+    .text {
+        text-align: center;
+        opacity: 0;
+    }
+
+    .home {
+        transition: .2s;
+    }
+
+    .
+}
